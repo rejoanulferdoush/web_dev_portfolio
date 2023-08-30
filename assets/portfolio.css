@@ -1,0 +1,39 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* default styles */
+.ptext-color{
+    color: #FD6E0A;
+}
+.orange-btn{
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 64px;
+    color: #ffff;
+    background-color: #FD6E0A;
+}
+
+/* regular styles */
+
+/* navigation styles */
+nav {
+    display: flex;
+}
+
+nav>h3{
+    font-size: 45px;
+}
+
+nav>ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
