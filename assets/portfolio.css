@@ -7,22 +7,46 @@ body{
 .ptext-color{
     color: #FD6E0A;
 }
+
+/* btn styles */
+.btn-mr{
+    margin-left: 30px;
+}
+
 .orange-btn{
     font-size: 20px;
     font-weight: 700;
     border: none;
     border-radius: 5px;
-    width: 150px;
+    width: 200px;
     height: 64px;
     color: #ffff;
     background-color: #FD6E0A;
 }
 
+.border-btn{
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+    width: 200px;
+    height: 64px;
+    color: #FD6E0A;
+    background-color: transparent;
+}
+
 /* regular styles */
+
+/* header styles */
+.header{
+    background: #FFF8F3;
+}
 
 /* navigation styles */
 nav {
+    padding: 0px 200px;
     display: flex;
+    justify-content: space-between;
 }
 
 nav>h3{
@@ -31,6 +55,7 @@ nav>h3{
 
 nav>ul{
     display: flex;
+    align-items: center;
 }
 
 nav>ul li{
@@ -39,5 +64,34 @@ nav>ul li{
 }
 
 nav li a{
+    color: #474747;
+    font-size: 20px;
     text-decoration: none;
+}
+/* nav styles end */
+
+/* banner styles */
+.banner{
+    padding: 0px 50px 0px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.dev-img{
+    width: 584px;
+    height: 676px;
+}
+.hero-title{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.hero-name{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+.hero-desc{
+    color: #757575;
+    font-size: 18px;
 }
