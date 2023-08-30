@@ -33,7 +33,11 @@ nav>ul{
     display: flex;
 }
 
-nav li{
+nav>ul li{
     list-style: none;
     margin-right: 50px;
+}
+
+nav li a{
+    text-decoration: none;
 }
