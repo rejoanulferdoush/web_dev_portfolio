@@ -49,8 +49,8 @@ nav {
     justify-content: space-between;
 }
 
-nav>h3{
-    font-size: 45px;
+.logo{
+    font-size: 60px;
 }
 
 nav>ul{
@@ -75,6 +75,10 @@ nav li a{
     padding: 0px 50px 0px 200px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .dev-img{
@@ -84,14 +88,33 @@ nav li a{
 .hero-title{
     color: #474747;
     font-size: 45px;
-    font-weight: 600;
 }
 .hero-name{
     color: #181818;
     font-size: 85px;
     font-weight: 700;
+    margin-top: 20px;
 }
 .hero-desc{
+    color: #757575;
+    font-size: 18px;
+    width: 500px;
+    margin-top: 20px;
+}
+/* About section styles  */
+.main{
+    background-color: #FFF8F3;
+    margin-top: 130px;
+    padding: 130px;
+    text-align: center;
+}
+.section-tittle{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description{
     color: #757575;
     font-size: 18px;
 }
