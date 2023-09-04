@@ -158,7 +158,6 @@ nav li a{
 .resume-container{
     display: flex;
     gap: 24px;
-    justify-content: space-between;
 }
 .resume-main-tittle{
     color: #474747;
@@ -179,4 +178,11 @@ nav li a{
     color: #757575;
     font-size: 16px;
     font-weight: 400;
+}
+hr{
+    border: 1px solid #dddddd91;
+}
+.btn-adjustment{
+    text-align: center;
+    margin-top: 50px;
 }
