@@ -186,3 +186,36 @@ hr{
     text-align: center;
     margin-top: 50px;
 }
+/* footer styles */
+.foot-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+.foot-column{
+    width: 50%;
+}
+.foot-header{
+    margin-bottom: 20px;
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.foot-description{
+    margin-bottom: 20px;
+}
+.social-icons img{
+    padding: 15px;
+    background-color: #ffbe90c1;
+    border-radius: 50%;
+    margin-right: 24px;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 18px 35px;
+    border: none;
+}
