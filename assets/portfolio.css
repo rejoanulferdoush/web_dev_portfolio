@@ -3,6 +3,7 @@
 body{
     font-family: 'Nunito', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    margin: 0px auto;
 }
 
 /* default styles */
@@ -240,6 +241,51 @@ hr{
     display: none;
 }
 @media screen and (min-width: 375px) and (max-width: 667px) {
+    .hero-title{
+        text-align: center;
+    }
+    .logo{
+        text-align: center;
+    }
+    .hero-name{
+        margin-top: 10px;
+        font-size: 55px;
+        text-align: center;
+    }
+    nav{
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .tag-img{
+        display: none;
+    }
+    .banner{
+        padding: 0px 10px 0px 10px;
+        flex-direction: column;
+
+    }
+    .border-btn{
+        margin-left: 0px;
+    }
+    .head-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .dev-img{
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+    }
+    .hero-desc{
+        width: 100%;
+        text-align: justify;
+    }
     .main{
         margin: 0px;
         padding: 10px 0px 10px;
@@ -291,5 +337,15 @@ hr{
     }
     .contact input[type="text"], .contact input[type="email"], textarea{
         width: 80%;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .second-form{
+        text-align: center;
+    }
+    .foot-description{
+        text-align: center;
     }
 }
