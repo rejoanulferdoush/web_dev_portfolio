@@ -235,3 +235,30 @@ hr{
 .contact textarea{
     resize: none;
 }
+/* Media Queries */
+.hide{
+    display: none;
+}
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    .what-ido{
+        margin: 0px;
+    }
+    .what-ido-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .what-ido-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .what-ido-card img{
+        height: 60px;
+        width: 60px;
+    }
+    .section-tittle, .section-description{
+        padding: 0px 20px 0px 20px;
+        text-align: justify;
+    }
+}
