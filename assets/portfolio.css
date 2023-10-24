@@ -349,3 +349,48 @@ hr{
         text-align: center;
     }
 }
+@media screen and (min-width:800px) and (max-width:1280px) {
+    .what-ido-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .section-tittle, .section-description{
+        padding: 0px;
+    }
+    .resume-container{
+        gap: 30px;
+    }
+    .dev-img{
+        display: none;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .inner-banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tag-img{
+        top: 6%;
+    }
+    nav{
+        padding: 0px 222px;
+    }
+    .main{
+        margin: 0px;
+    }
+    .foot-container{
+        flex-direction: column-reverse;
+    }
+    .foot-column {
+        width: 100%;
+    }
+    .social-icons, .second-form, .foot-header, .foot-description{
+        text-align: center;
+    }
+    .resume {
+        margin: 130px 50px 0px 50px;
+    }
+}
