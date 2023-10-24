@@ -259,6 +259,12 @@ hr{
     }
     .section-tittle, .section-description{
         padding: 0px 20px 0px 20px;
-        text-align: justify;
+    }
+    .resume {
+        margin: 130px 15px 0px 15px;
+    }
+    .resume-container {
+        display: flex;
+        flex-direction: column;
     }
 }
