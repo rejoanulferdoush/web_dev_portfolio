@@ -240,6 +240,17 @@ hr{
     display: none;
 }
 @media screen and (min-width: 375px) and (max-width: 667px) {
+    .main{
+        margin: 0px;
+        padding: 10px 0px 10px;
+    }
+    .about-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .section-description{
+        text-align: justify;
+    }
     .what-ido{
         margin: 0px;
     }
